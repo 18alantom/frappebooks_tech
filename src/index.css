@@ -1,0 +1,118 @@
+@tailwind base;
+/* @tailwind components; */
+@tailwind utilities;
+
+.text-blue-frappe {
+  color: #0089ff;
+}
+
+.text-gray-books {
+  color: #505a62;
+}
+
+/* Element wide styles for the posts */
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+h2,
+h3,
+h4 {
+  @apply font-semibold mb-2 pt-2 text-blue-frappe;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h4 {
+  @apply italic;
+}
+
+p,
+pre {
+  @apply mb-5;
+}
+
+hr {
+  @apply my-10 border-gray-100;
+}
+
+hr:last-of-type {
+  @apply border-blue-200;
+}
+
+ol {
+  @apply mb-5 -mt-3.5 ml-auto list-decimal;
+  width: calc(95%);
+}
+
+li {
+  @apply mb-1.5;
+}
+
+em {
+  @apply text-slate-700;
+}
+
+figcaption {
+  @apply text-sm text-gray-500 text-center mt-1 mb-5;
+}
+
+img {
+  @apply border-gray-200 border-2 rounded-lg;
+}
+
+a {
+  @apply border-b-2;
+}
+
+b {
+  @apply font-semibold text-gray-500;
+}
+
+a:active,
+a:hover {
+  @apply border-b-4;
+}
+
+code {
+  @apply bg-gray-200 py-0.5 px-1.5 rounded-md;
+}
+
+/* Overriding defaults */
+
+.no-a {
+  @apply text-slate-700 border-none;
+}
+
+.no-a:active,
+.no-a:hover {
+  @apply text-slate-700 no-underline border-none;
+}
+
+/* Components */
+
+.btn {
+  @apply text-sm px-2 py-0.5 rounded-md tracking-wide font-light;
+}
+
+.btn-interactive {
+  @apply btn text-slate-600 text-sm bg-slate-100 active:bg-slate-200 btn;
+}
+/* Global style */
+
+#app {
+  font-family: Inter, sans-serif;
+  @apply px-2 md:mx-auto md:max-w-screen-md text-slate-700 font-light;
+}
+
+*:last-child {
+  @apply mb-0;
+}
