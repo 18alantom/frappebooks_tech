@@ -5,21 +5,9 @@ around here, in case I forget, which I will.
 
 ## How does this work?
 
-### `hooks.py`
-
-The blog is an SPA and relies on `frappebooks_assist/hooks.py` for routing:
-
-1. `website_redirects` entry because I still haven't figured out how to override the `/blog` path.
-2. `website_route_rules` entry because it's an SPA and so does client side routing, it it wasn't for this entry this link: [frappebooks.com/tech/why](https://frappebooks.com/tech/why) would throw a 404.
-
 ### Build
 
 Running `yarn build` will build the files and do the following
-
-1. Place _assets_ in `frappebooks_assist/public`
-2. Place `tech.html` in `frappebooks_assist/www`
-
-This allows Frappe Framework to serve the SPA.
 
 ### Adding a Post
 
