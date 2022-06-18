@@ -7,6 +7,6 @@ routes.push({
   path: '/',
   component: Home,
 });
-const history = createWebHistory('/tech/');
+const history = createWebHistory();
 
 export const router = createRouter({ routes, history });
