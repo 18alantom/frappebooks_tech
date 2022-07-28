@@ -1,3 +1,3 @@
 <template>
-  <em class="text-slate-500"><slot></slot></em>
+  <em class="text-gray-600"><slot></slot></em>
 </template>

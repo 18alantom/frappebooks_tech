@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .text-blue-frappe {
-  color: #0089ff;
+  color: #2490ef;
 }
 
 .text-gray-books {
@@ -45,7 +45,7 @@ hr {
 }
 
 hr:last-of-type {
-  @apply border-blue-200;
+  @apply border-blue-100;
 }
 
 ol {
@@ -58,11 +58,11 @@ li {
 }
 
 em {
-  @apply text-slate-700;
+  @apply text-gray-700;
 }
 
 figcaption {
-  @apply text-sm text-gray-500 text-center mt-1 mb-5;
+  @apply text-sm text-gray-700 text-center mt-1 mb-5;
 }
 
 img {
@@ -89,12 +89,12 @@ code {
 /* Overriding defaults */
 
 .no-a {
-  @apply text-slate-700 border-none;
+  @apply text-gray-700 border-none;
 }
 
 .no-a:active,
 .no-a:hover {
-  @apply text-slate-700 no-underline border-none;
+  @apply text-gray-700 no-underline border-none;
 }
 
 /* Components */
@@ -104,13 +104,13 @@ code {
 }
 
 .btn-interactive {
-  @apply btn text-slate-600 text-sm bg-slate-100 active:bg-slate-200 btn;
+  @apply btn text-gray-600 text-sm bg-gray-100 active:bg-gray-200 btn;
 }
 /* Global style */
 
 #app {
   font-family: Inter, sans-serif;
-  @apply px-2 md:mx-auto md:max-w-screen-md text-slate-700 font-light;
+  @apply px-2 md:mx-auto md:max-w-screen-md text-gray-900 font-light;
 }
 
 *:last-child {

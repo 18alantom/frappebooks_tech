@@ -1,6 +1,6 @@
 <template>
   <header class="mb-5">
-    <h1 class="font-semibold text-4xl text-justify mb-5 text-slate-700">
+    <h1 class="font-semibold text-4xl text-justify mb-5 text-gray-800">
       <slot></slot>
     </h1>
 
