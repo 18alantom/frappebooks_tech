@@ -13,7 +13,7 @@
         >{{ author }}</l
       >
       <span> · </span>
-      <span class="font-light">{{ postingDate }}</span>
+      <span class="">{{ postingDate }}</span>
     </p>
   </header>
 </template>

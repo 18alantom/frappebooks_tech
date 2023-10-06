@@ -74,7 +74,7 @@ a {
 }
 
 b {
-  @apply font-semibold text-gray-500;
+  @apply font-semibold text-gray-600;
 }
 
 a:active,
@@ -100,7 +100,7 @@ code {
 /* Components */
 
 .btn {
-  @apply text-sm px-2 py-0.5 rounded-md tracking-wide font-light;
+  @apply text-sm px-2 py-0.5 rounded-md tracking-wide;
 }
 
 .btn-interactive {
@@ -110,7 +110,7 @@ code {
 
 #app {
   font-family: Inter, sans-serif;
-  @apply px-2 md:mx-auto md:max-w-screen-md text-gray-900 font-light;
+  @apply px-2 md:mx-auto md:max-w-screen-md text-gray-900;
 }
 
 *:last-child {

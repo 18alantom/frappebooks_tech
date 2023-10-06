@@ -4,7 +4,7 @@
   >
     <code
       ref="code"
-      class="text-blue-100 bg-inherit font-light whitespace-pre-wrap"
+      class="text-blue-100 bg-inherit whitespace-pre-wrap"
     >
       <slot></slot>
     </code>

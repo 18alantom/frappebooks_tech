@@ -12,9 +12,9 @@
         <p class="text-sm mb-2">
           <span class="font-semibold">{{ p.author }}</span>
           <span> · </span>
-          <span class="font-light">{{ p.date }}</span>
+          <span class="">{{ p.date }}</span>
         </p>
-        <p class="font-light">{{ p.first }}</p>
+        <p class="">{{ p.first }}</p>
       </div>
     </router-link>
   </section>
