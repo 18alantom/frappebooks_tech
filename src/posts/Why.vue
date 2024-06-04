@@ -36,7 +36,7 @@
 export default {
   data() {
     return {
-      path: '/why',
+      path: '/frappebooks_tech/why',
       title: 'Why does this blog exist?',
       author: '18alantom',
       date: '2022-01-31',

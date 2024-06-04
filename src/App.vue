@@ -1,6 +1,6 @@
 <template>
   <nav class="flex flex-row justify-between my-10 items-center">
-    <router-link to="/" class="hover:underline no-a">
+    <router-link to="./" class="hover:underline no-a">
       <img
         src="./assets/logo.svg"
         class="border-none rounded-none"

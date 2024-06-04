@@ -144,7 +144,7 @@
 export default {
   data() {
     return {
-      path: '/complete_rewrite',
+      path: '/frappebooks_tech/complete_rewrite',
       title: 'First Attempt at a Complete Rewrite',
       author: '18alantom',
       date: '2022-03-08',

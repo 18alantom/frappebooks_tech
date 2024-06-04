@@ -10,7 +10,7 @@
 
   <p>
     I had no idea how to go about doing this, so I consulted
-    <router-link to="/why"
+    <router-link to="/frappebooks_tech/why"
       >the developer who had asked me whether I had copied the code I had
       written</router-link
     >
@@ -201,7 +201,7 @@
 export default {
   data() {
     return {
-      path: '/enabling_translations',
+      path: '/frappebooks_tech/enabling_translations',
       title: 'Enabling Translations',
       author: '18alantom',
       date: '2022-02-17',

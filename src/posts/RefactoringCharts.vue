@@ -274,7 +274,7 @@ import TheDistance from '../components/refactoring_charts/TheDistance.vue';
 export default {
   data() {
     return {
-      path: '/refactoring_charts',
+      path: '/frappebooks_tech/refactoring_charts',
       title: 'Refactoring Charts',
       author: '18alantom',
       date: '2022-02-08',
